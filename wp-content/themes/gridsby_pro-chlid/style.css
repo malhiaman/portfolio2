@@ -7,3 +7,9 @@ Author URI:
 Template: gridsby_pro
 Version: 0.1.0
 */
+
+div.site-branding img {
+    height: 2000px;
+    width: 300%;
+
+}
