@@ -7,9 +7,82 @@ Author URI:
 Template: gridsby_pro
 Version: 0.1.0
 */
-
+/*
 div.site-branding img {
-    height: 2000px;
-    width: 300%;
+    height: 300px;
+    width: 300px;
 
+}
+*/
+
+@keyframes example {
+    0%   {color:black;}
+    25%  {color:wheat}
+    50%  {color:grey}
+    100% {color:darkgrey;}
+}
+h2.site-description {
+font-size: 50px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-weight: bold;
+animation-name: example;
+animation-duration: 4s;
+animation-direction: reverse;
+ animation-iteration-count: infinite;
+}
+.site-info {
+    display: none;
+}
+
+span.meta-block {
+    display: none;
+}
+div.nav-links {
+    display: none;
+}
+
+div.site-logo img {
+    width:800px;
+    height:500px;
+}
+
+div.contact-button {
+    margin-bottom: 200px;
+}
+
+header#masthead.site-header {
+    margin-bottom: 100px;
+}
+
+div.contact-button {
+   margin-top: 150px;
+}
+
+div.social-media {
+    margin-top: 150px;
+}
+
+figure.gallery-image img{
+
+    margin-right: 80px;
+    margin-bottom: 20px;
+    
+}
+
+div.site-logo {
+    margin-top: 200px;
+}
+
+
+#text-3 {
+    color:black;
+    font-weight: bold;
+}
+
+button.outline.white {
+    color:black;
+}
+
+div#gallery-container {
+    margin-top: -100px;
 }
